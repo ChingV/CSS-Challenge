@@ -5,7 +5,7 @@
   
   .box{
     padding: 5px;
-    
+    border: black solid 1px;
   }
 
   img{
