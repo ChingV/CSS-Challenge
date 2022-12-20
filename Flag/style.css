@@ -1,0 +1,23 @@
+img{
+    width: 250px;
+    height: 190px;
+    position:  absolute;
+    flex-wrap: wrap;
+    padding-left: 2px;
+  }
+  
+  table{
+    height: 400px;
+    width: 800px;
+  }
+  
+  table, td{
+    border: solid 2px;
+    border-collapse: collapse;
+  }
+  tr:nth-child(even){
+    background: red;
+  }
+  tr:nth-child(odd){
+    background: whitesmoke;
+  }

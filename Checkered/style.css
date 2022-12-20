@@ -1,0 +1,32 @@
+body{
+    background-color: grey;
+}
+
+div{
+    width: 320px;
+    height: 320px;
+    display: inline-block;
+    margin: 5px;
+}
+
+.box{
+    background-color: white;
+    background-size: 80px 80px;
+    background-position: 0 0, 40px 40px;
+    background-image: 
+        linear-gradient(45deg, black 25%, transparent 25%, transparent 75%, black 75%, black),
+        linear-gradient(45deg, black 25%, transparent 25%, transparent 75%, black 75%, black);
+}
+
+.board2{
+    width: 320px;
+    height: 320px;
+    margin: 5px;
+  }
+  
+  tr:nth-child(even) td:nth-child(even), tr:nth-child(odd) td:nth-child(odd) {
+    background: black;
+  }
+  tr:nth-child(odd) td:nth-child(even), tr:nth-child(even) td:nth-child(odd) {
+    background: white;
+  }
